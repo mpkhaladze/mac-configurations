@@ -40,3 +40,9 @@ Test if Redis server is running.
 ```$ redis-cli ping```
 
 shoud get ```PONG``
+
+## Apache install and config
+Start apache on boot
+
+```$ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist```
+
